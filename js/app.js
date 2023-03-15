@@ -1,4 +1,8 @@
 
+let gerarId = () =>{
+    return Math.floor(Date.now() * Math.random()).toString(36);
+
+}
 
 let guardar = () => {
 
@@ -176,9 +180,5 @@ let limpar = () => {
     }
 }
 
-let gerarId = () =>{
-    return Math.floor(Date.now() * Math.random()).toString(36);
-
-}
 
 
